@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  color: black;
+}
+
+.block1 {
+  display: inline-block;
+}
+.block2 {
+  display: inline-block;
+  padding: 10px;
+}
+
+.block3 {
+  display: inline-block;
+  float: right;
+  padding: 40px;
+}
+.row {
+  background-color: black;
+  color: #fff;
+}
+form {
+  text-align: center;
+}
+.form-control {
+  border-radius: 4px;
+  padding: 5px;
+}
+.list-group-item {
+  overflow: hidden;
+  position: relative;
+  color: black;
+  border-style: ridge;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.btnRemove {
+  position: absolute;
+  background: #dc3545;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+  border-radius: 5px;
+  border-style: groove;
+}
+.btnRemove:hover {
+  background: salmon;
+}
